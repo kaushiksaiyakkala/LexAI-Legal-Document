@@ -1,0 +1,28 @@
+# ── Agentic RAG core ──────────────────────────────────────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-groq>=0.1.6
+langchain-community>=0.2.0
+langgraph>=0.2.0
+
+# ── Vector store ──────────────────────────────────────────────
+chromadb>=0.5.0
+sentence-transformers>=3.0.0   # embeddings (all-MiniLM-L6-v2)
+
+# ── FastAPI backend ───────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+
+# ── Document processing ───────────────────────────────────────
+pdfplumber>=0.11.0
+scikit-learn>=1.4.0
+spacy>=3.7.0
+
+# ── Utilities ─────────────────────────────────────────────────
+torch>=2.2.0          # required by sentence-transformers
+tokenizers>=0.19.0
+
+# After install, run once:
+#   python -m spacy download en_core_web_sm

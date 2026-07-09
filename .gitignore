@@ -1,0 +1,35 @@
+# ── Secrets ────────────────────────────────────────────────────
+.env
+
+# ── Generated / runtime data ───────────────────────────────────
+chroma_db/
+uploads/
+document_store/
+
+# ── Frontend build ──────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+.venv/
+venv/
+
+# ── Model checkpoints (too large for GitHub) ────────────────────
+*.pt
+*.bin
+*.safetensors
+
+# ── Archives & large files ──────────────────────────────────────
+*.zip
+*.pdf
+
+# ── OS / IDE ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
