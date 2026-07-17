@@ -178,4 +178,4 @@ Interactive docs: **http://localhost:8000/docs**
 
 ## Built by
 
-4-person team — IIIT-Bangalore, 2026
+3-person team — IIIT-Bangalore, 2026
